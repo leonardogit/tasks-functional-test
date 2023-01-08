@@ -33,5 +33,6 @@ public class TasksTest {
         String message = driver.findElement(By.id("message")).getText();
         Assert.assertEquals("Sucess!",message);
         //fechar o browser
+        driver.quit();
     }
 }
